@@ -1,0 +1,30 @@
+{
+  "name": "gss-paris-js",
+  "version": "0.0.0",
+  "authors": [
+    "DjebbZ <khalid.jebbari@gmail.com>"
+  ],
+  "description": "Talk about GSS at Paris.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "css",
+    "gss",
+    "responsive",
+    "talk"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "~3.0.2",
+    "gss": "~1.0.4-beta"
+  }
+}

@@ -1,0 +1,85 @@
+step1<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GSS - Le CSS tel qu'il devrait être (@Paris.js, 29 octobre 2014)</title>
+    <link rel="stylesheet" href="bower_components/normalize.css/normalize.css">
+    <style type="text/css">
+        /* Global */
+        html { font-size: 12px;}
+        body { padding: 0 5px; font-size: 16px;}
+        figure { margin: 0;}
+        ul,li { padding: 0; margin: 0;}
+
+        /* Header */
+        header { padding-bottom: 40px;}
+        .nav-item { float: left; list-style-type: none; vertical-align: top; padding-right: 20px;}
+        .main {clear: left;}
+
+        /* Main content */
+        h1, .subtitle { text-align: center;}
+        .subtitle { font-size: 1.5rem; }
+        .main {width: 825px;}
+        .recette { width: 410px; float: left; text-align: center;}
+        .recette-intro { width: 400px; padding-left: 5px; text-align: left;}
+        .recette-legende { font-size: 1.5rem;}
+        .footer {clear: left;}
+
+        /* Footer */
+        footer { margin-top: 3rem; text-align: right; width: 825px;}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="nav-item">Home Resto Logo<br />(Imaginez-le...)</li>
+                <li class="nav-item"><a href="#home">Accueil</a></li>
+                <li class="nav-item"><a href="#conseils">Petits conseils</a></li>
+                <li class="nav-item"><a href="#recettes">Mes recettes préférées</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="main">
+        <h1>Home Resto</h1>
+        <p class="subtitle">La meilleure bouffe, c'est chez moi-même !</p>
+        <div class="recette">
+            <figure>
+                <img src="img/a-la-poele.jpeg" width="400" height="300" alt="Légumes poelle">
+                <figcaption class="recette-legende">À la poêle</figcaption>
+            </figure>
+            <p class="recette-intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum molestiae, nesciunt, eveniet inventore aut repellat cum mollitia assumenda veritatis totam, amet, ullam id laborum quia facilis! Necessitatibus at nemo beatae?</p>
+        </div>
+        <div class="recette">
+            <figure>
+                <img src="img/legumes-viande.jpg" width="400" height="300" alt="Légumes viande">
+                <figcaption class="recette-legende">Viande sautée et ses légumes</figcaption>
+            </figure>
+            <p class="recette-intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit beatae deleniti, quibusdam debitis sapiente ipsum ipsa at quasi possimus aliquam incidunt officiis placeat obcaecati aperiam quis quisquam maiores magnam consequuntur!</p>
+        </div>
+        <div class="recette">
+            <figure>
+                <img src="img/pain.jpg" width="400" height="300" alt="pain">
+                <figcaption class="recette-legende">Du bon pain</figcaption>
+            </figure>
+            <p class="recette-intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas sit tenetur dolorem molestias, repellendus nam nulla officia tempora. Est aperiam maxime ducimus voluptates voluptatem voluptate cum vel! Repellendus unde, tempore?</p>
+        </div>
+        <div class="recette">
+            <figure>
+                <img src="img/rouleau-printemps.jpg" width="400" height="300" alt="Légumes poelle">
+                <figcaption class="recette-legende">Rouleaux de printemps</figcaption>
+            </figure>
+            <p class="recette-intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora quia omnis culpa quisquam quod. Consectetur porro excepturi ipsa illum corporis suscipit expedita perspiciatis, tenetur atque minima, laudantium modi ratione ex.</p>
+        </div>
+        <div class="recette">
+            <figure>
+                <img src="img/sandwich.jpg" width="400" height="300" alt="sandwich">
+                <figcaption class="recette-legende">Sandwichs meilleurs que chez Subway</figcaption>
+            </figure>
+            <p class="recette-intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dolor sit nisi, aperiam repudiandae placeat laboriosam fuga sequi exercitationem, commodi odio nostrum cum et! Sint repellendus tenetur libero, veniam voluptates.</p>
+        </div>
+    </section>
+    <footer>Copie right : Pas-riz.js 2014 :D</footer>
+</body>
+</html>
